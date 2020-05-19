@@ -7,14 +7,12 @@
 }
 
 .row {
-    
-    
+    float: left;    
 }
 
 .cell {
     width: 75px;
     height: 75px;
-    float: left;
 }
 
 .cell-white {
