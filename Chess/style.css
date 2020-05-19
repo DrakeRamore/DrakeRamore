@@ -4,7 +4,6 @@
     background-color: green;
     margin: 0 auto;
     border: 1px solid black;
-    float: left;
 }
 
 .row {
@@ -39,18 +38,17 @@
     text-align: center;
 }
 
-#vertical-marking {
-    width: 20px;
-    height: 600px;
-    background-color: green;
-    margin: 0 auto;
-    border: 1px solid black;
-    float: left;
-}
-
 .num-marking {
     background-color: white;
     width: 20px;
     height: 75px;
     text-align: center;
+}
+
+#vertical-marking {
+    width: 20px;
+    height: 600px;
+    background-color: green;
+    margin: 0 auto;
+    float: left;
 }
