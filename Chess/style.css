@@ -4,6 +4,7 @@
     background-color: green;
     margin: 0 auto;
     border: 1px solid black;
+    float: left;
 }
 
 .row {
@@ -21,4 +22,35 @@
 
 .cell-black {
     background-color: black;
+}
+
+#horizontal-marking {
+    width: 600px;
+    height: 20px;
+    background-color: green;
+    margin: 0 auto;
+}
+
+.let-marking {
+    background-color: white;
+    width: 75px;
+    height: 20px;
+    float: left;
+    text-align: center;
+}
+
+#vertical-marking {
+    width: 20px;
+    height: 600px;
+    background-color: green;
+    margin: 0 auto;
+    border: 1px solid black;
+    float: left;
+}
+
+.num-marking {
+    background-color: white;
+    width: 20px;
+    height: 75px;
+    text-align: center;
 }
