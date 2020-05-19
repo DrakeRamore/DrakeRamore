@@ -1,0 +1,26 @@
+#desk {
+    width: 600px;
+    height: 600px;
+    background-color: green;
+    margin: 0 auto;
+    border: 1px solid black;
+}
+
+.row {
+    
+    
+}
+
+.cell {
+    width: 75px;
+    height: 75px;
+    float: left;
+}
+
+.cell-white {
+    background-color: white;
+}
+
+.cell-black {
+    background-color: black;
+}
