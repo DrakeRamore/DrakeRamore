@@ -1,9 +1,16 @@
-#desk {
+#field {
     width: 640px;
+    height: 600px;
+    background-color: yellow;
+    margin: 0 auto;
+}
+
+#desk {
+    width: 600px;
     height: 600px;
     background-color: green;
     margin: 0 auto;
-    border: 1px solid black;
+    float: left;
 }
 
 .row {
@@ -13,6 +20,8 @@
 .cell {
     width: 75px;
     height: 75px;
+    box-sizing: border-box;
+    border: 1px solid black;
 }
 
 .cell-white {
@@ -38,9 +47,18 @@
     text-align: center;
 }
 
+#vertical-marking {
+    width: 20px;
+    height: 600px;
+    background-color: green;
+    float: left;
+}
+
 .num-marking {
     background-color: white;
     width: 20px;
     height: 75px;
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
