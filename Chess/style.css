@@ -12,7 +12,7 @@
     margin: 0 auto;
     float: left;
     background-image: url("Images/Harry.jpg");
-    background-size: 700px 450px;
+    background-size: 600px 350px;
     background-position: center;
     background-repeat: no-repeat;
 }
@@ -32,8 +32,8 @@
     background-color: white;
 }
 
-.cell-white-op {
-    opacity: 0.5;
+.cell-op {
+    opacity: 0.4;
 }
 
 .cell-black {
