@@ -3,6 +3,7 @@
     height: 600px;
     background-color: yellow;
     margin: 0 auto;
+    text-align: center;
 }
 
 #desk {
@@ -67,9 +68,9 @@
     background-color: white;
     width: 20px;
     height: 75px;
-    display: flex;
+    /*display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;*/
 }
 
 .bB {
