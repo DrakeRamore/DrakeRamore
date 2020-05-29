@@ -18,6 +18,6 @@ function countEvenOddNumbers(n) {
     return result;
 }
 
-var number = 111222345;
+var number = 111223345;
 
 console.log(countEvenOddNumbers(number));
