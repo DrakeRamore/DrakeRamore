@@ -1,0 +1,35 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+}
+
+#content {
+    display: table;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+.row {
+    display: table-row;
+    border-collapse: collapse;
+}
+
+.cell {
+    text-align: center;
+    display: table-cell;
+    width: 40px;
+    border: 1px solid #000;
+    border-collapse: collapse;
+}
+
+.cell-main {
+    background-color: green;
+}
+
+.cell-main-right {
+    background-color: greenyellow;
+}
+
+.cell-main-left {
+    background-color: indigo;
+}

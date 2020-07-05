@@ -1,0 +1,54 @@
+#main {
+    /*display: table;*/
+    width: 640px;
+    height: 640px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.row {
+    /*display: table-row;*/
+    border-collapse: collapse;
+}
+
+.cell {
+    /*display: table-cell;*/
+    border: 1px solid #000;
+    border-collapse: collapse;
+    width: 75px;
+    height: 75px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.cell-black {
+    background-color: black;
+}
+
+.cell-white {
+    background-color: white;
+}
+
+.cell-number {
+    background-color: white;
+    width: 20px;
+    height: 75px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.cell-letter-space {
+    background-color: white;
+    width: 20px;
+    height: 20px;
+    float: left;
+}
+
+.cell-letter {
+    background-color: white;
+    width: 75px;
+    height: 20px;
+    float: left;
+}
